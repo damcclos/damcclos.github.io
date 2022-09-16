@@ -3,7 +3,7 @@ layout: post
 title: Realtime output from child processes with Powershell
 tags: [powershell]
 ---
-```
+```powershell
 function Invoke-Call {
     $exe = $args[0]
     $args = @($args[1..$args.Length])
