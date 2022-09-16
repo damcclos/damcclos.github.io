@@ -1,3 +1,8 @@
+---
+layout: post
+title: Realtime output from child processes with Powershell
+tags: [powershell]
+---
 ```
 function Invoke-Call {
     $exe = $args[0]
